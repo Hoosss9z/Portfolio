@@ -8,7 +8,7 @@ export default function AboutPage() {
     <>
       <Section title="À propos" subtitle="Parcours, valeurs et manière de travailler">
         <div className="card space-y-4">
-          <p className="text-white/80">Je suis un·e développeur·se passionné·e par les expériences web soignées, accessibles et hautement performantes. J’aime donner des couleurs aux produits et travailler en équipe pour livrer rapidement de la valeur.</p>
+          <p className="text-white/80">Je suis un développeur junior passionné par les expériences web soignées, accessibles et hautement performantes. J’aime donner des couleurs aux produits et travailler en équipe pour livrer rapidement de la valeur.</p>
           <p className="text-white/70">J’interviens sur la conception UI, le front-end moderne et l’intégration de services back. J’adore optimiser les Core Web Vitals et mettre en place des design systems réutilisables.</p>
         </div>
       </Section>
