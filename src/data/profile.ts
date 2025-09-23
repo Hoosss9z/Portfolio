@@ -113,18 +113,18 @@ export const profile: Profile = {
       description: "Site personnel en Next.js/Tailwind présentant parcours, compétences et projets.",
       tech: ["Next.js", "TypeScript", "Tailwind", "Vercel"],
       link: "/projects/portfolio",
-      image: "/images/portfolio.png",      // attention: PAS /public/images/...
+      image: "/images/portfolio.png",
       highlights: ["One-page", "Responsive", "Animations légères"]
 }
 ,
     {
-      title: "Mini‑CRM (exercice)",
+      title: "Mini‑CRM",
       description: "CRUD contacts + authentification, filtres et export CSV.",
       tech: ["React", "Node.js", "Express", "SQLite"],
       highlights: ["REST", "Validation", "Recherche"]
     },
     {
-      title: "Générateur de devis (exercice)",
+      title: "Générateur de devis",
       description: "Application web simple pour créer et partager des devis PDF.",
       tech: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
       link: "/projects/devis",
@@ -132,7 +132,6 @@ export const profile: Profile = {
     }
   ],
   education: [
-    { school: "Studi (en ligne), Belfort", degree: "Diplôme Développeur Web Full‑Stack", start: "2022", end: "2023" },
     { school: "Lycée Raoul Follereau, Belfort", degree: "BTS Systèmes de Maintenance", start: "2021", end: "2022" },
     { school: "Lycée Pasteur Mont Roland, Dole", degree: "BTS Énergie & Domotique du Bâtiment", start: "2019", end: "2020" },
     { school: "Lycée Denis Diderot, Bavilliers", degree: "Bac Pro Électricité & Systèmes Connectés", start: "2016", end: "2019" },
