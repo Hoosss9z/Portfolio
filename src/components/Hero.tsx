@@ -47,7 +47,7 @@ export default function Hero() {
             <a href="/contact" className="px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 transition font-medium">
               Me contacter
             </a>
-            <a href="/cv.pdf" className="px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 transition font-medium">
+            <a href="/CV_Hussein EL MOURSI.pdf" className="px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 transition font-medium">
               Télécharger mon CV
             </a>
           </motion.div>
