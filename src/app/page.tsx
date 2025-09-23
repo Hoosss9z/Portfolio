@@ -38,14 +38,12 @@ export default function HomePage() {
         <Section title="Compétences" subtitle="Front • Back • Outils">
           <div className="card grid md:grid-cols-2 gap-6">
             <div>
-              <SkillBar label="HTML / CSS" value={85} />
-              <SkillBar label="JavaScript / TypeScript" value={80} />
-              <SkillBar label="React / Next.js" value={75} />
-              <SkillBar label="Node.js" value={65} />
+              <SkillBar label="HTML / CSS" value={40} />
+              <SkillBar label="JavaScript / TypeScript" value={32} />
+              <SkillBar label="React / Next.js" value={45} />
+              <SkillBar label="Node.js" value={40} />
             </div>
             <div>
-              <SkillBar label="PHP / SQL" value={60} />
-              <SkillBar label="Python" value={55} />
               <SkillBar label="Git / GitHub" value={75} />
               <SkillBar label="UI / Accessibilité" value={60} />
             </div>
