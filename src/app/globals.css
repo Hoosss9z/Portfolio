@@ -1,0 +1,40 @@
+html { scroll-behavior: smooth; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --radius: 12px; }
+
+html, body { height: 100%; }
+
+/* ✅ Dégradé global partout */
+body {
+  @apply bg-ink text-white;  /* couleur unie seulement */
+  font-feature-settings: "cv02","cv03","cv04","cv11";
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
+
+.card {
+  @apply relative z-10 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur;
+}
+
+.logo-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ff7f50; /* exemple orange doux */
+  background: linear-gradient(90deg, #ff7f50, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+
+@supports (padding: max(0px)) {
+  body { padding-bottom: max(0px, env(safe-area-inset-bottom)); }
+}
+
+
